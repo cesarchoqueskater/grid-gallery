@@ -6,10 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .content {}
+        
+        .wrapper {
+            /* border: 10px solid red; */
+            box-sizing: border-box;
+            margin: 16px;
+            height: 100vh;
+        }
+        
+        .grid-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 161px);
+            gap: 16px;
+            justify-content: center;
+        }
+        
+        .card-content {
+            /* width: fit-content; */
+            max-width: 418px;
+        }
+        
+        .card-content img {
+            width: 100%;
+        }
+        
+        @media screen and (min-width:710px) {
+            .grid-details {
+                grid-template-columns: repeat(3, minmax(234px, 418px));
+            }
+        }
+        
+        @media screen and (min-width:1024px) {}
+    </style>
 </head>
 
 <body>
-
+    <div class="content">
+        <div class="wrapper">
+            <div class="grid-details">
+                <div class="card-content">
+                    <img src="./img/Berlin.png" alt="">
+                </div>
+                <div class="card-content">
+                    <img src="./img/Berlin.png" alt="">
+                </div>
+                <div class="card-content">
+                    <img src="./img/Berlin.png" alt="">
+                </div>
+                <div class="card-content">
+                    <img src="./img/Berlin.png" alt="">
+                </div>
+                <div class="card-content">
+                    <img src="./img/Berlin.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./js/index.js" type="module"></script>
 </body>
 

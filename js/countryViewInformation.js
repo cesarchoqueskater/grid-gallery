@@ -6,5 +6,5 @@ export function configCountryInformation(country) {
 
 export default function countryInformation() {
     configCountryInformation(country)
-    console.log(country)
+        // console.log(country)
 }
