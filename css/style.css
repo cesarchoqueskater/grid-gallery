@@ -97,9 +97,11 @@ body {
     padding-block: 8px;
     padding-inline: 16px;
     background-color: var(--sky-blue);
+    color: var(--white);
     border-radius: 8px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .text-search-map {

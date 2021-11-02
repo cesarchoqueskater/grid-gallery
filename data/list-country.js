@@ -71,7 +71,7 @@ export default {
             "country": "México",
             "capital": "México",
             "ubication": "https://www.google.com/maps/place/México,+México",
-            "image_count": "./img/Méxuco.png"
+            "image_count": "./img/México.png"
         }
     ]
 }
