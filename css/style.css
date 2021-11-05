@@ -74,15 +74,15 @@ body {
 }
 
 .card-size-350 {
-    grid-row: span 14;
+    grid-row: span 7;
 }
 
 .card-size-418 {
-    grid-row: span 17;
+    grid-row: span 7;
 }
 
 .card-size-500 {
-    grid-row: span 20;
+    grid-row: span 8;
 }
 
 .card-description {
@@ -137,7 +137,25 @@ body {
     .grid-details {
         grid-template-columns: repeat(3, minmax(234px, 418px));
     }
+    .card-size-350 {
+        grid-row: span 10;
+    }
+    .card-size-418 {
+        grid-row: span 12;
+    }
+    .card-size-500 {
+        grid-row: span 13;
+    }
 }
 
-
-/* @media screen and (min-width:1024px) {} */
+@media screen and (min-width:1024px) {
+    .card-size-350 {
+        grid-row: span 14;
+    }
+    .card-size-418 {
+        grid-row: span 17;
+    }
+    .card-size-500 {
+        grid-row: span 20;
+    }
+}
