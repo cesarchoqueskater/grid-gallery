@@ -5,6 +5,7 @@
 # Grid Gallery
 
 Practica tus habilidades de Grid CSS con este ejercicio de las capitales del mundo.
+Recarga el navegador las veces que desees, y veras que los card cambiaran de tamaños y se estructuran agradablemente. Genial.
 
 ##Requerimientos
 - Accesibilidad como prioridad
