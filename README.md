@@ -16,8 +16,21 @@ Practica tus habilidades de Grid CSS con este ejercicio de las capitales del mu
 
 ## Desktop
 
-<img width="400px"  src="./screenshots/screenshot_web.png"/>
-<img width="400px"  src="./screenshots/screenshot_web_hover.png"/>
+<div align="center">
+  <table>
+    <tr>
+        <td style="text-align:center">
+            <img width="400px"  src="./screenshots/screenshot_web.png"/>
+        </td>
+        <td style="text-align:center">           
+            <img width="400px"  src="./screenshots/screenshot_web_hover.png"/>
+        </td>
+    </tr>
+  </table>
+</div>
+
+
+
 ## Mobile
 
 <img width="200px"  src="./screenshots/screenshot_mobile.png"/>
