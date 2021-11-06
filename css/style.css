@@ -2,6 +2,7 @@
     --white: #ffffff;
     --sky-blue: #00A2FF;
     --body1-regular: 400 1rem/1.5rem Poppins;
+    --body1-bold-small: 700 0.6rem/1.5rem Poppins;
     --body1-bold: 700 1rem/1.5rem Poppins;
 }
 
@@ -48,6 +49,10 @@ body {
 
 .card-content:hover .card-description {
     display: none;
+}
+
+.card-content:hover .card-image {
+    /* transform: scale(1.5);} */
 }
 
 .card-placeholder {
@@ -127,8 +132,12 @@ body {
     text-decoration: none;
 }
 
+.img-svg {
+    display: none;
+}
+
 .text-search-map {
-    font: var(--body1-bold);
+    font: var(--body1-bold-small);
     margin-block: 8px;
     margin-inline: 8px;
 }
@@ -145,6 +154,12 @@ body {
     }
     .card-size-500 {
         grid-row: span 13;
+    }
+    .img-svg {
+        display: block;
+    }
+    .text-search-map {
+        font: var(--body1-bold);
     }
 }
 

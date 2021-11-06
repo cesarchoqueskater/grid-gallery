@@ -8,7 +8,7 @@ export function cardContentTemplate(value, randomNumber) {
                 <div class="card-placeholder">
                     <div class="card-content-link">
                         <a class="button-search-map" href="${value.ubication}" target="_blank">
-                            <img src="./img/map.svg" alt="map-svg">
+                            <img class="img-svg" src="./img/map.svg" alt="map-svg">
                             <p class="text-search-map">Ver en Google Maps</p>
                         </a>
                     </div>
