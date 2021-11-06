@@ -51,10 +51,6 @@ body {
     display: none;
 }
 
-.card-content:hover .card-image {
-    /* transform: scale(1.5);} */
-}
-
 .card-placeholder {
     top: 0;
     right: 0;

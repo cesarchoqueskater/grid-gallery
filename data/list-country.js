@@ -2,6 +2,12 @@ export default {
     "codigo": 200,
     "message": 'Peticion exitosa',
     "list": [{
+            "country": "Perú",
+            "capital": "Lima",
+            "ubication": "https://www.google.com/maps/place/Lima,+Perú",
+            "image": "./img/Lima.png"
+        },
+        {
             "country": "Alemania",
             "capital": "Berlin",
             "ubication": "https://www.google.com/maps/place/Berlin,+Alemania",
